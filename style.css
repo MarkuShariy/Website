@@ -11,7 +11,7 @@
 }
 .company-wrapper{
     position: absolute;
-    border: 1px solid red;
+    
     width: 30%;
     height: 100%;
     left: 0%;
@@ -43,7 +43,7 @@ margin-left: 150px;
 }
 .company-info{
       position: absolute;
-    border: 1px solid red;
+    
     width: 50%;
     height: 100%;
     left: 50%;
@@ -62,10 +62,34 @@ margin-left: 650px;
 margin-top: -35px;
     font-family: Bahnschrift;
 }
-company-number-icon{
-     width: 30%;
-     height: 15%;
-     border: 1px solid red;
+.company-number-icon{
+     width: 5%;
+     height: 30%;
+   
+     position: absolute;
+     left: 93%;
+     top: 32%;
+     background-image: url(telega.png);
+     background-position: center;
+     background-size: cover;
+     border-radius: 10px;
+}
+.bravo-boss-pasxalko{
+    width: 300%;
+    height: 00%;
+    position: absolute;
+    background-image: url(mellstroy-меллстрой.gif);
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    top: 200%;
+    left: 1000%;
+    transition: 1s;
+
+}
+.company-logo:hover .bravo-boss-pasxalko{
+    width: 300%;
+    height: 300%;
 }
 
 
