@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    background-color: rgb(31, 31, 31);
+}
+.company-wrapper{
+    position: absolute;
+    border: 1px solid red;
+    width: 30%;
+    height: 100%;
+    left: 0%;
+    color: white;
+}
+.company-name{
+    font-size: 35px;
+    font-family: Bahnschrift;
+    margin-left: 150px;
+   
+}
+.company-undername{
+    color: rgb(155, 155, 155);
+margin-left: 150px;
+    font-family: Bahnschrift;
+}
+.company-logo{
+    position: absolute;
+    background-color: white;
+    width: 14%;
+    height: 50%;
+    bottom: 30%;
+    left: 4%;
+    border-radius: 10px;
+    background-image: url(mellstroy.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.company-info{
+      position: absolute;
+    border: 1px solid red;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    color: white;
+}
+.company-workplace{
+    display: block;
+      font-size: 33px;
+margin-top: 50px;
+    font-family: Bahnschrift;
+}
+.company-number{
+        display: block;
+      font-size: 29px;
+margin-left: 650px;
+margin-top: -35px;
+    font-family: Bahnschrift;
+}
+company-number-icon{
+     width: 30%;
+     height: 15%;
+     border: 1px solid red;
+}
+
+
