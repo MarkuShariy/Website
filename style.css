@@ -1,5 +1,93 @@
 *{
     padding: 0;
     margin: 0;
+     box-sizing: border-box;
     
+}
+.page1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(tpl25_pri2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.main-inner{
+    position: absolute;
+    border: 1px solid red;
+    width: 45%;
+    height: 45%;
+    top: 30%;
+    left: 5%;
+
+
+
+}
+.inner-furniture{
+    font-family:"Bahnschrift SemiBold";
+    color: white;
+    font-size: 65px;
+    text-shadow: 1px 1px 20px white;
+}
+.inner-class{
+      font-family:"Bahnschrift SemiBold";
+    color: rgb(255, 175, 110);
+    font-size: 60px;
+    text-shadow: 1px 1px 15px rgba(255, 175, 110, 0.5);
+}
+.inner-lowertext{
+    width: fit-content;
+       font-family:"Bahnschrift Light";
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+    text-shadow: 1px 5px 5px rgb(0, 0, 0);
+}
+.inner-button-size{
+    color: white;
+    width: 35%;
+    height: 17%;
+    background-color: rgb(255, 147, 46);
+    font-family:"Bahnschrift SemiBold";
+    align-content: center;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-top: 7%;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px rgba(255, 147, 46,0.4);
+   
+    &:hover{
+       transform: scale(1.1);
+        box-shadow: 1px 1px 20px rgba(255, 147, 46,1);
+
+    }
+    
+
+}
+.inner-button-view{
+        color: white;
+    width: 35%;
+    height: 17%;
+    background-color: rgba(255, 147, 46,0.4);
+    border: 3px solid rgba(255, 147, 46);
+    font-family:"Bahnschrift SemiBold";
+    align-content: center;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 20px;
+    margin-left: 48%;
+    margin-top: -8.33%;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+         transform: scale(1.1);
+        box-shadow: 1px 1px 20px rgba(255, 147, 46,1);
+        background-color: rgba(255, 147, 46,1);
+    border: 4px solid rgba(83, 46, 11, 0.4);
+    
+    }
 }
